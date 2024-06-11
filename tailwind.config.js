@@ -5,9 +5,8 @@ const {
 } = require("tailwindcss/lib/util/flattenColorPalette");
 
 
-import { fontFamily } from "tailwindcss/defaultTheme";
-
 /** @type {import('tailwindcss').Config} */
+import { fontFamily } from "tailwindcss/defaultTheme";
 module.exports = {
   darkMode:'class',
   content: [
@@ -64,7 +63,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-sora)", ...fontFamily.sans],
-        code: "var(--font-code)",
+        code: ['Source Code Pro', 'monospace'],
         grotesk: "var(--font-grotesk)",
       },
       borderRadius: {
