@@ -55,7 +55,7 @@ export default function HeaderContent(){
         openNavigation ? "bg-[#0E0C15]" : "bg-[#0E0C15]/90 backdrop-blur-sm"
       }`}
     >
-      <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
+      <div className="flex items-center px-5 lg:px-[1.875rem] xl:px-10 max-lg:py-4">
         <Link className="block w-[12rem] xl:mr-8" href="#hero">
           <Logo/>
         </Link>
@@ -73,7 +73,7 @@ export default function HeaderContent(){
                 onClick={handleClick}
                 className={`block relative font-code text-2xl uppercase text-white transition-colors hover:text-[#AC6AFF] ${
                   item.onlyMobile ? "lg:hidden" : ""
-                } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
+                } px-6 py-6 md:py-8 lg:-mr-[0.0625rem] lg:text-xs lg:font-semibold ${
                   item.url === currentHash ? "z-2 lg:text-white" : "lg:text-white/50"
                 } lg:leading-5 lg:hover:text-white  xl:px-12`}
               >
@@ -87,11 +87,11 @@ export default function HeaderContent(){
 
         <a
           href="#signup"
-          className="button hidden mr-8 text-white/50 transition-colors hover:text-white lg:block font-code uppercase"
+          className="button hidden mr-8 text-xs font-bold text-white/50 transition-colors hover:text-white lg:block font-code uppercase"
         >
           New account
         </a>
-        <Button className="hidden lg:flex font-code uppercase" href="#login">
+        <Button className="hidden lg:flex text-xs font-bold font-code uppercase" href="#login">
           Sign in
         </Button>
 

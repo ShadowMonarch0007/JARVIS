@@ -63,7 +63,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-sora)", ...fontFamily.sans],
-        code: ['Source Code Pro', 'monospace'],
+        code: "var(--font-code)",
         grotesk: "var(--font-grotesk)",
       },
       borderRadius: {
@@ -84,6 +84,11 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      backgroundImage: {
+        "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
+        "conic-gradient":
+          "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
       },
     },
   },
