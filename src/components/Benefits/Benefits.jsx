@@ -27,7 +27,7 @@ const Benefits = () => {
                             key={item.id}
                         >
                             <div className="absolute -translate-y-1 -translate-x-[0.75px]">
-                                <Image className="w-[48rem] h-[356px]" src={item.backgroundUrl}/>
+                                <Image className="w-[48rem] h-[358px]" src={item.backgroundUrl}/>
                             </div>
                             <div className="relative z-40 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                                 <h5 className="h5 mb-5">{item.title}</h5>
