@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import Image from "next/image";
-import brainwave from "@/components/assets/brainwave.svg";
 import { navigation } from "@/components/data";
 import Button from "@/components/header/subcomponents/Button";
 import MenuSvg from "@/components/assets/svg/MenuSvg";

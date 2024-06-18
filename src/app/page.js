@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ThemeButton from "@/components/theme-button";
 import Hero from "@/components/Hero/hero";
+import Benefits from "@/components/Benefits/Benefits";
 import ButtonGradient from "@/components/assets/svg/ButtonGradient";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <div>
       <div className="overflow-hidden">
         <Hero/>
+        <Benefits/>
       </div>
       <ButtonGradient/>
     </div>
