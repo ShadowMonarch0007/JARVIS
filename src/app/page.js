@@ -4,6 +4,7 @@ import Hero from "@/components/Hero/hero";
 import Benefits from "@/components/Benefits/Benefits";
 import Collaboration from "@/components/Collaboration/collaboration";
 import Services from "@/components/Services/services";
+import Pricing from "@/components/Pricing/pricing";
 import ButtonGradient from "@/components/assets/svg/ButtonGradient";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <Benefits/>
         <Collaboration/>
         <Services/>
+        <Pricing/>
       </div>
       <ButtonGradient/>
     </div>
