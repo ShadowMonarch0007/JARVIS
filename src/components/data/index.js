@@ -157,6 +157,7 @@ export const collabApps = [
     icon: figma,
     width: 26,
     height: 36,
+    backgroundUrl: "https://www.figma.com/",
   },
   {
     id: "1",
@@ -164,6 +165,7 @@ export const collabApps = [
     icon: notion,
     width: 34,
     height: 36,
+    backgroundUrl: "https://www.notion.com/"
   },
   {
     id: "2",
@@ -171,6 +173,7 @@ export const collabApps = [
     icon: discord,
     width: 36,
     height: 28,
+    backgroundUrl: "https://www.discord.com/"
   },
   {
     id: "3",
@@ -178,6 +181,7 @@ export const collabApps = [
     icon: slack,
     width: 34,
     height: 35,
+    backgroundUrl: "https://www.slack.com/"
   },
   {
     id: "4",
@@ -185,6 +189,7 @@ export const collabApps = [
     icon: photoshop,
     width: 34,
     height: 34,
+    backgroundUrl: "https://www.photoshop.com/"
   },
   {
     id: "5",
@@ -192,6 +197,7 @@ export const collabApps = [
     icon: protopie,
     width: 34,
     height: 34,
+    backgroundUrl: "https://www.protopie.io/"
   },
   {
     id: "6",
@@ -199,6 +205,7 @@ export const collabApps = [
     icon: framer,
     width: 26,
     height: 34,
+    backgroundUrl: "https://www.framer.com/"
   },
   {
     id: "7",
@@ -206,6 +213,7 @@ export const collabApps = [
     icon: raindrop,
     width: 38,
     height: 32,
+    backgroundUrl: "https://raindrop.io/"
   },
 ];
 
